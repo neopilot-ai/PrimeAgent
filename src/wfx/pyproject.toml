@@ -131,6 +131,7 @@ dev = [
 
 [tool.coverage.run]
 branch = true
+source = ["src/wfx"]
 omit = [
     "*/tests/*",
     "*/__init__.py",
